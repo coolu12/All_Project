@@ -1,0 +1,8 @@
+CREATE DATABASE malicious_url_db;
+USE malicious_url_db;
+
+CREATE TABLE reported_urls (
+                               id INT AUTO_INCREMENT PRIMARY KEY,
+                               url VARCHAR(255) NOT NULL,
+                               type VARCHAR(50) NOT NULL
+);
